@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.currency-conventor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.currency-conventor h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.currency-conventor .amount,
+.currency-conventor .dropdown,
+.currency-conventor .msg {
+    margin-bottom: 15px;
+}
+
+.currency-conventor p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.currency-conventor input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.currency-conventor .dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency-conventor .from, 
+.currency-conventor .to {
+    width: 45%;
+}
+
+.currency-conventor .select-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.currency-conventor select {
+    padding: 10px;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.currency-conventor .select-container img {
+    width: 32px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.fa-arrow-right-arrow-left {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+}
+
+.currency-conventor .msg {
+    text-align: center;
+    color: #666;
+}
+
+.currency-conventor button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.currency-conventor button:hover {
+    background-color: #0056b3;
+}
+i{
+    margin-top: 5px;
+    padding-top: 31px;
+}
